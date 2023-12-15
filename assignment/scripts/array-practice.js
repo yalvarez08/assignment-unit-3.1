@@ -51,7 +51,8 @@ console.log(lastAnimal);
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
-
+let lastItem = animalArray[animalArray.length - 1];
+console.log(lastItem);
 
 
 // Adding & Removing Array Items
@@ -143,7 +144,8 @@ console.log(gems);
 //     It should look something like:
 //       ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']
 //     Now, console.log the new array.
-
+const colorfulGems = gems.concat(colors);
+console.log(colorfulGems);
 
 
 
